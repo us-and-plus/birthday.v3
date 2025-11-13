@@ -15,7 +15,7 @@ const second = 1000,
   minute = second * 60,
   hour = minute * 60,
   day = hour * 24;
-let countDown = new Date('Oct 22, 2023 00:00:00').getTime(),
+let countDown = new Date('Nov 14, 2025 00:00:00').getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -154,14 +154,14 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Hari ini, saya langitkan semua doa terbaik saya untuk kamu.", "Semoga hal-hal yang membuat kamu runtuh turut menjadi alasan kamu untuk tetap tumbuh.", "Semoga dunia senantiasa menjaga kamu dimanapun kamu berada.", "Semoga hari-hari kamu selalu diiringi cinta yang tak pernah ada batasnya." , "Semoga setiap langkahmu dimudahkan hingga tercapai apa yang kamu inginkan."],
+  strings: ["My Chappua Ji,", "You are my favourite part of every day.", "We don't usually remain calm, but even the quiet moments feel right.", "I can laugh, argue or annoy you (sometimes), and still be with you." , "You have seen my worst, but still we end up hugging.", "I love us. love you."],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Dengan ataupun tanpaku, semoga semesta selalu membahagiakan kamu bagimanapun caranya.", " ", "barakallah fi umrik, terima kasih sudah bertahan sampai sejauh ini.", " ", "- Wish all you the best"],
+  strings: ["Dekh kar khush ho jaate hain mere pyaare ko,", "Muskurahat jinki chhupa de harr sitaare ko.", "Wo insaan khaas hai, mere hi paas hai,", "...", "Aao baitho, tumhe ek baat batate hain,", "Humari zindagi ki khoobsoorat insaan se milvaate hain.", "Badi badi mushkille yu chhutkiyo p hal krti hain,", "Magar bacho ki tarah zidd krti hain."],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
@@ -169,7 +169,7 @@ new TypeIt("#teks2", {
 
 
 new TypeIt("#trims", {
-  strings: ["Terimakasih."],
+  strings: ["Happy Birthday My Chappua."],
   startDelay: 2000,
   speed: 150,
   loop: false,
